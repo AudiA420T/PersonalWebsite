@@ -1,0 +1,336 @@
+<style>
+  body {
+         position: relative;
+         background: none;
+       }
+  
+    .corner1 {
+      font-family: "Brush Script MT", cursive;
+      font-size: 21px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: 400;
+      line-height: 20px;
+      }
+      
+     .corner {
+      	font-family: Papyrus, fantasy;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 25px;
+      }
+  
+    #Home {
+      padding-top:50px;
+      height:800px;
+      color: #fff;
+      }
+      
+      @media (max-width: 799px) {
+    	#Home {
+        	background-image: url(/images/me2.jpg);
+        	background-size: cover;
+        }
+      }
+      
+      @media (min-width: 800px) and (max-width: 1920px) {
+    	#Home {
+        	background-image: url(/images/mesm.jpg);
+        	background-size: cover;
+        }
+      }
+      
+      @media (min-width: 1921px) {
+    	#Home {
+        	background-image: url(/images/mexl.jpg);
+        	background-size: cover;
+        }
+      }
+      
+      @media (max-width: 599px) {
+    	#hobbie1 {
+        	height:200px;
+        }
+        #hobbie2 {
+        	height:200px;
+        }
+        #hobbie3 {
+        	height:200px;
+        }
+        #hobbie4 {
+        	height:200px;
+        }
+      }
+    
+    #Experience {
+      padding-top:20px;
+      height:100%;
+      color: #fff;
+      background-color: #062f4f;
+      }
+    
+    #Projects {
+      padding-top:20px;
+      height:100%;
+      color: #fff; 
+      background-color: #ff9800;
+      }
+    
+    #Hobbies {
+      padding-top:20px;
+      height:100%;
+      color: #fff;
+      background-color: #015249;
+      }
+      
+    #Contacts {
+      padding-top:20px;
+      height:100%;
+      color: black;
+      background-color: white;
+      }
+  
+    .experiencelist {
+      font-size:1.1em;
+      padding: 0px;
+      margin: 0px;
+      padding-top: 5px;
+    }
+    
+    .row {
+      padding:8px;
+    }
+    
+    #mainH1 {
+      color: #655730;
+      font-family: 'Josefin Sans', sans-serif;
+    }
+
+    #animateText {
+      height: 200px;
+      width: 300px;
+      position: absolute;
+      top: 50px;
+      right: 100px;
+    }
+    
+    .greyText {
+      color: #f9f9f9;
+    }
+    
+    .titleChange {
+      color: orange;
+    }
+    .yearChange {
+      color: #2fc445;
+      font-size: 0.9em;
+    }
+    
+    .contact1{
+      height:150px;
+      margin-bottom:70px;
+      margin-top:30px;
+    }
+    
+    .specli {
+      font-size: .8em;
+    }
+    
+    .nomargin {
+      margin: 0px;
+      padding: 0px;
+    }
+    
+    .newFont {
+      font-family: 'Josefin Sans', sans-serif;
+    }
+    
+    #project1 {
+      background-image: url(/images/projects/b6a4/b6main.jpg);
+      background-repeat: repeat-n;
+      background-height: 100%;
+      background-size: cover;
+      padding-bottom: 100%;
+      width: 100%;
+      border-radius: 20%;
+      margin: 0px 0px 10px 0px;
+      outline: none;
+    }
+    
+    #project2 {
+      background-image: url(/images/projects/b6s4/b6s4.jpg);
+      background-repeat: repeat-n;
+      background-height: 100%;
+      background-size: cover;
+      padding-bottom: 100%;
+      width: 100%;
+      border-radius: 20%;
+      margin: 0px 0px 10px 0px;
+      outline: none;
+    }
+    
+    #project3 {
+      background-image: url(/projects/B8S4/first4.jpg);
+      background-repeat: repeat-n;
+      background-position: left;
+      background-height: 100%;
+      background-size: cover;
+      padding-bottom: 100%;
+      width: 100%;
+      border-radius: 20%;
+      margin: 0px 0px 10px 0px;
+      outline: none;
+    }
+    
+    #project4 {
+      background-image: url(/images/projects/harness/wiringdiagram.png);
+      background-repeat: repeat-n;
+      background-height: 100%;
+      background-size: cover;
+      padding-bottom: 100%;
+      width: 100%;
+      border-radius: 20%;
+      margin: 0px 0px 10px 0px;
+      outline: none;
+    }
+
+    #project5 {
+      background-image: url(/images/projects/doorbell.jpg);
+      background-repeat: repeat-n;
+      background-height: 100%;
+      background-size: cover;
+      padding-bottom: 100%;
+      width: 100%;
+      border-radius: 20%;
+      margin: 0px 0px 40px 0px;
+      outline: none;
+    }
+    
+    #project6 {
+      background-image: url(/images/me2.jpg);
+      background-repeat: repeat-n;
+      background-height: 100%;
+      background-size: cover;
+      padding-bottom: 100%;
+      width: 100%;
+      border-radius: 20%;
+      margin: 0px 0px 40px 0px;
+      outline: none;
+    }
+    
+    #hobbie1 {
+      background-size:cover;
+      background-width: 100%;
+      background-repeat:no-repeat;
+      margin: 15px 0px 0px 0px;
+      padding: 0px;
+    }
+    
+    #hobbie2 {
+      background-size:contain;
+      background-width: 100%;
+      background-repeat:no-repeat;
+      margin: 15px 0px 0px 0px;
+      padding: 0px;
+    }
+    
+    #hobbie3 {
+      background-size:cover;
+      background-width: 100%;
+      background-repeat:no-repeat;
+      margin: 0px 0px 15px 0px;
+      padding: 0px;
+    }
+    
+    #hobbie4 {
+      background-size:contain;
+      background-width: 100%;
+      background-repeat:no-repeat;
+      margin: 0px 0px 30px 0px;
+      padding: 0px;
+    }
+
+    .titles {
+    font-family: 'Josefin Sans', sans-serif;
+    }
+    
+    .experiencepx {
+    padding: 5px;
+    }
+    
+    .hobbiesize {
+    height:300px;
+    }
+    
+    .green {
+    background-color: green;
+    height:300px;
+    }
+    
+    .swap1 {
+    object-fit: cover;
+    width:100%;
+    max-width:100%;
+    max-height:100%;
+    margin: 0;
+    padding: 0;
+    }
+    
+    .swap2 {
+    object-fit: cover;
+    object-position: 0 0;
+    width:100%;
+    max-width:100%;
+    max-height:100%;
+    margin: 0;
+    padding: 0
+    }
+    
+    <!--BLUR--> 
+    
+    .blurimg {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    }
+    
+   .blur:hover > .blurtext {
+    visibility:visible;
+    }
+    
+   .blur:hover > .swap1 {
+    filter: brightness(50%);
+    }
+    
+   .blur:hover > .swap2 {
+    filter: brightness(50%);
+    }
+    
+   .blur:click > .blurtext {
+    visibility:visible;
+    }
+    
+   .blur:click > .swap1 {
+    filter: brightness(50%);
+    }
+    
+   .blur:click > .swap2 {
+    filter: brightness(50%);
+    }
+    
+   .blurtext {
+    visibility:hidden;
+    position:relative;
+    top: -170px;
+    left: 0px;
+    text-align: center;
+    font-size: 1.3em;
+    color: #f2f2f2;
+    font-family: 'Josefin Sans', sans-serif;
+    }
+    
+</style>
