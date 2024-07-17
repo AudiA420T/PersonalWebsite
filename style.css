@@ -77,6 +77,11 @@
       color: #fff; 
       background-color: #ff9800;
       }
+      
+    .modal-body {
+      max-height: 75vh;
+      overflow-y: auto;
+    }
     
     #Hobbies {
       padding-top:20px;
@@ -185,7 +190,7 @@
     }
     
     #project4 {
-      background-image: url(/images/projects/harness/wiringdiagram.png);
+      background-image: url(/images/temp6.jpg);
       background-repeat: repeat-n;
       background-height: 100%;
       background-size: cover;
@@ -197,10 +202,10 @@
     }
 
     #project5 {
-      background-image: url(/images/projects/doorbell.jpg);
+      background-image: url(/images/buzzer2.png);
       background-repeat: repeat-n;
       background-height: 100%;
-      background-size: cover;
+      background-size: contain;
       padding-bottom: 100%;
       width: 100%;
       border-radius: 20%;
